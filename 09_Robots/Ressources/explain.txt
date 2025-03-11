@@ -1,0 +1,15 @@
+Pour cette faille nous avons ete chercher si le fichier robots.txt etait present a
+la racine du site web, son but est d interdire aux robots des moteurs de 
+recherche l’indexation de certaines zones de notre site internet.
+Dans ce dernier on a pu voir le /.hidden/ (qui nous servira plus tard pour 
+le module 10 Scrapping) et /whatever/ dans lequel on peut voir :
+
+root:437394baff5aa33daa618be47b75cb49
+
+Qui semble etre une succession login passwd, et la deuxieme partie semble etre un hash md5
+
+Apres decryption on recoit qwerty123@, ce qui nous donne un ensemble root : qwerty123@
+
+Apres avoir essaye, le combo de login mot de passe dans http://localhost:8080/admin
+car monsite/admin est souvent utilise pour l'interface administrateur,
+on a pu obtenir le flag
