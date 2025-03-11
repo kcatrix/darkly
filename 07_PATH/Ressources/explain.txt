@@ -1,0 +1,8 @@
+Pour cette faille, nous avons fait appel au fait que chaque site fonctionnant 
+sous unix a un "etc/passwd" contenant l'integralite des mdp utilisateurs,
+et avons utilise ?page= afin d acceder a des differents path dans un premier temps,
+puis la console du site nous a donne des indices comme quoi l'acces
+etait vraiment possible au etc/passwd et apres quelques recherches nous avons trouve que
+http://localhost:8080/?page=../../../../../../../etc/passwd etait un acces a etc/passwd
+La solution est de proteger l'acces aux pages auxquelles chaque utilisateur n est pas 
+cense acceder
