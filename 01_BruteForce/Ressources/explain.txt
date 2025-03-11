@@ -1,0 +1,4 @@
+Nous nous sommes bases sur la liste des mots de passe les plus courants afin d'effectuer un brut force et voir si le site etait protege contre ces derniers, il se trouve que nous avons eu des resutats positifs sur un de ces derniers : shadow. 
+Ce qui nous a permis de recuperer le flag de cette faille de securite
+
+https://fr.wikipedia.org/wiki/Liste_des_mots_de_passe_les_plus_courants
