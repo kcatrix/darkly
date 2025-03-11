@@ -1,0 +1,4 @@
+Pour cette faille nous avons essayé d'injecter un script au lieu d'une image
+lors de l'upload, nous avons mis en place une modification du type de fichier
+sur un .sh malicieux, nous l'avons ensuite injecté dans l'upload d'images 
+afin d'exploiter la faille et faire apparaitre le flag
