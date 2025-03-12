@@ -13,3 +13,4 @@ Il contient un champ cach√© de type hidden qui a pour value l'adresse mail de r√
 
 Ainsi on peut rediriger le mail en changeant la valeur de l'input, il suffit ensuite de cliquer sur le bouton `SUBMIT` pour afficher le flag  
 
+Il suffit de le gerer dans le back

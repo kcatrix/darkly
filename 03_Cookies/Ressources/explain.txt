@@ -3,3 +3,6 @@ La value de ce cookie a été encrypter en hash md5 en le decriptan il affiche
 false
 Il suffit alors de l'encripter en true
 "I_am_admin=b326b5062b2f0e69046810717534cb09" 
+
+Pour prevenir cette issue, il suffit de ne pas utiliser les cookies pour
+tout ce qui est verification d'admin

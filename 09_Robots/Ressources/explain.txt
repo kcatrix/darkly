@@ -13,3 +13,7 @@ Apres decryption on recoit qwerty123@, ce qui nous donne un ensemble root : qwer
 Apres avoir essaye, le combo de login mot de passe dans http://localhost:8080/admin
 car monsite/admin est souvent utilise pour l'interface administrateur,
 on a pu obtenir le flag
+
+Pour prevenir ce probleme nous pouvons utiliser :chmod 700 monsite/whatever/
+afin de garantir que l'acces a ces donnes ne soit possible que pour des personnes ayant 
+les droits necessaires sur le serveur

@@ -1,4 +1,0 @@
-Pour le feedback nous avons verifie si l'utilisation d'un script etait possible dans les 
-zones textes des feedback et c'etait effectivement le cas, ce qui permettrait de lancer
-des script chez tous les utilisateurs du site.
-Il est necessaire de mettre des protections dans le back afin d'eviter ce genre de faille.

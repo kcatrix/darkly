@@ -4,4 +4,11 @@ Par exemple :
 index.php?page=redirect&amp;site=facebook
 => index.php?page=redirect&amp;site=https://profile.intra.42.fr/
 
-Dans ce cas, une personne malveillante pourrait rediriger des utilisateurs vers un faux site. Ceux-ci pourraient facilement se faire avoir s'ils sont peu regardant, ils indiqueraient au faux site leurs identifiants et mdp qui seraient immédiatemment récupérés ! On appelle cela du phishing.
+Dans ce cas, une personne malveillante pourrait rediriger 
+des utilisateurs vers un faux site. 
+Ceux-ci pourraient facilement se faire avoir s'ils sont peu regardant, 
+ils indiqueraient au faux site leurs identifiants et mdp qui seraient 
+immédiatemment récupérés ! On appelle cela du phishing.
+
+Pour prevenir ce genre d issues, il suffit de verifier l'url cible dans le
+back end 

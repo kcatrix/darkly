@@ -2,3 +2,7 @@ Nous nous sommes bases sur la liste des mots de passe les plus courants afin d'e
 Ce qui nous a permis de recuperer le flag de cette faille de securite
 
 https://fr.wikipedia.org/wiki/Liste_des_mots_de_passe_les_plus_courants
+
+
+Pour fix cette faille il suffit de limiter le nombre de tentative et 
+mettre une politique de mot de passe plus forte 

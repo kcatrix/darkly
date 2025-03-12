@@ -1,6 +1,7 @@
 Pour ce probleme nous avons vu dans le code que les values etaient modifiable
  directement dans l inspecteur avant de choisir la note que nous donnions:
 Par exemple la value pour le choix 9 pourrait etre modifiable en 10349503495
-ce qui donnerait un nombre de points equivalent a la personne de notre choix lors du vote.
+ce qui donnerait un nombre de points equivalent a la personne de notre choix 
+lors du vote.
 Il suffit de rajouter une protection dans le back qui bloque les valeurs
 d'entree entre 1 et 10 afin de ne pas pouvoir ajouter plus de points
